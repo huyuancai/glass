@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	<!-- constant settings -->
+	<!-- 是否为开发模式 -->
+	<constant name="struts.devMode" value="false" />
+	<constant name="struts.objectFactory" value="spring"/>
+	<!-- 国际化信息内码 -->
+	<constant name="struts.i18n.encoding" value="UTF-8" />
+	<constant name="struts.locale" value="zh" />
+	<!-- 用URL扩展名来确定是否这个请求是被用作Struts action，其实也就是设置 action的后缀 -->
+	<constant name="struts.action.extension" value="action" />
+	<!-- 指定视图标签默认的视图主题 -->
+	<constant name="struts.ui.theme" value="simple" />
+	<!-- 设置Struts 2是否允许在Action名中使用斜线 -->
+	<constant name="struts.enable.SlashesInActionNames" value="false" />
+	<!-- 设置ognl表达式是否支持静态方法 -->
+	<constant name="struts.ognl.allowStaticMethodAccess" value="true" />
+	<!-- 设置文件上传大小最大值 -->
+	<constant name="struts.multipart.maxSize" value="2147483648" />
+
+
+	<!-- package settings -->
+	<package name="zhonglv" extends="json-default" namespace="/">
+	    
+	</package>
+
+</struts>
