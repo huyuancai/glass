@@ -162,7 +162,7 @@ a.more {
 }
 
 .workTime {
-	margin-top:10px;
+	margin-top: 10px;
 	line-height: 180%;
 	color: #333;
 }
@@ -219,4 +219,13 @@ img {
 	line-height: 5px;
 	display: block;
 	margin-top: 8px;
+}
+
+#footer {
+	color: #666;
+	width: 100%;
+	text-align: center;
+	line-height: 140%;
+	padding: 10px 0;
+	background: #e8e8e8;
 }

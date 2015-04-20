@@ -33,7 +33,7 @@
 			</div>
 			<div style="width:347px; float:right;">
 				<h3 style="height:25px; line-height:25px; border-bottom:1px solid #ccc; font-size:12px; position:relative; background:url(<s:url value="/images/inews.gif"/>) no-repeat left top;">
-		  			<a href="about.asp" class="more" style="top:2px;">
+		  			<a href="javascript:void(0);" class="more" style="top:2px;">
 		  				<img src="<s:url value="/images/more.gif"/>">
 		  			</a>
 		  		</h3>
@@ -156,9 +156,10 @@
 		</p>
 		<div class="lcontact">
 			<div style="padding-left:40px;">
-				<p>电话：18205218403</p>
-				<p>地址：江苏省徐州市铜山区马坡镇前玻璃工业园</p>
-				<!-- <p>邮箱：<a href="mailto:info@chunjing.com">info@chunjing.com</a></p> -->
+				<p>联系人：胡燕</p>
+				<p>电&nbsp;话：18205218403</p>
+				<p>地&nbsp;址：江苏省徐州市铜山区马坡镇前玻璃工业园</p>
+				<p>邮&nbsp;箱：<a href="mailto:quantongbaozhuang@163.com">quantongbaozhuang<br/>@163.com</a></p>
 			</div>
 		</div>
 		<div class="workTime">
@@ -170,3 +171,4 @@
 		</div>
 	</div>
 </div>
+<s:include value="footer.jsp"/>
